@@ -1,0 +1,20 @@
+{
+  "1": "71 Nosedown",
+  "2": ">60fps",
+  "4": "Savestates",
+  "8": "Emulator",
+  "16": "Keyboard Only",
+  "32": "Nose Down on Stick",
+  "64": "No Slide",
+  "128": "No Boost",
+  "256": "Mirrored",
+  "512": "Ignore in rankings",
+  "1024": "Estimated Time",
+  "2048": "From RTA Run",
+  "4096": "Botto Daily",
+  "8192": "From Tournament",
+  "16384": "From 3 Lap",
+  "32768": "Texture Modded",
+  "65536": "Botto Import",
+  "131072": "Input Remapped (console)"
+}

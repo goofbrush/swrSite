@@ -1,0 +1,1054 @@
+{
+  "BTC": {
+    "1": {
+      "Name": "Legacy Route",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "2": {
+      "Name": "Left of Rock",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "4": {
+      "Name": "1st Jump",
+      "Found By": "MikeyBurger",
+      "Link": "",
+      "Date Found": ""
+    },
+    "8": {
+      "Name": "2nd Jump",
+      "Found By": "acE",
+      "Link": "",
+      "Date Found": "2020/05/14"
+    },
+    "16": {
+      "Name": "Short 2nd Jump",
+      "Found By": "acE",
+      "Link": "https://youtu.be/FJenRwpzhT8",
+      "Date Found": "2020/05/14"
+    },
+    "32": {
+      "Name": "Jump to Cave",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/943867841562693692",
+      "Date Found": "2022/01/08"
+    },
+    "64": {
+      "Name": "Big Rock Jump",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/939308047866662942",
+      "Date Found": "2022/02/04"
+    },
+    "128": {
+      "Name": "Wall Clip Jump",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/943574103800029244",
+      "Date Found": "2022/02/16"
+    },
+    "256": {
+      "Name": "Cave Corner Cut",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/1114229407599575070",
+      "Date Found": "2022/10/17"
+    },
+    "512": {
+      "Name": "Lap Skip",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/730739316179075072",
+      "Date Found": "2020/07/09"
+    },
+    "1024": {
+      "Name": "Startline MFG",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/942415109161099335",
+      "Date Found": "2022/02/13"
+    },
+    "2048": {
+      "Name": "Cave Exit MFG",
+      "Found By": "hellfire",
+      "Link": "https://youtu.be/VzP9bNJnO-E",
+      "Date Found": "2023/03/06"
+    },
+    "4096": {
+      "Name": "AI Spline Load",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/1118155917800787988",
+      "Date Found": "2023/06/13"
+    }
+  },
+  "MGS": {},
+  "BWR": {
+    "1": {
+      "Name": "Main Skip",
+      "Found By": "acE",
+      "Link": "https://www.twitch.tv/videos/32552185221/10/2018",
+      "Date Found": "2018/10/21"
+    },
+    "2": {
+      "Name": "Tent Entry",
+      "Found By": "galeforce",
+      "Link": "https://youtu.be/U655QjiPCZ4",
+      "Date Found": "2019/08/28"
+    },
+    "4": {
+      "Name": "Alley OOB End",
+      "Found By": "acE",
+      "Link": "https://youtu.be/AcQRdh-mmHQ",
+      "Date Found": "2019/08/28"
+    },
+    "8": {
+      "Name": "Glacier Cut",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "16": {
+      "Name": "Cave Skip",
+      "Found By": "acE",
+      "Link": "https://youtu.be/x2-ItLUrrA4",
+      "Date Found": "2020/07/04"
+    },
+    "32": {
+      "Name": "Tent to Tunnel",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/879562211935268864",
+      "Date Found": "2021/08/24"
+    },
+    "64": {
+      "Name": "Cave Entry",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/890745969174536242",
+      "Date Found": "2021/09/24"
+    },
+    "128": {
+      "Name": "Cave OOB End",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/938786463699566592",
+      "Date Found": "2022/02/03"
+    },
+    "256": {
+      "Name": "Gorge Respawn",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/939311379142291456",
+      "Date Found": "2022/02/05"
+    },
+    "512": {
+      "Name": "Archway MFG",
+      "Found By": "galeforce",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/599181503028789268",
+      "Date Found": "2019/07/12"
+    },
+    "1024": {
+      "Name": "0.999... bug",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/1082834985066696734",
+      "Date Found": "2023/03/08"
+    },
+    "2048": {
+      "Name": "Tent Utilisation",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "4096": {
+      "Name": "Cave Utilisation",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    }
+  },
+  "AQC": {
+    "1": {
+      "Name": "Wall Jump",
+      "Found By": "Domirae",
+      "Link": "https://youtu.be/_1hWmfoPKDY",
+      "Date Found": "2022/05/13"
+    },
+    "2": {
+      "Name": "Fish Skip",
+      "Found By": "yam",
+      "Link": "https://youtu.be/NE3-twG2fIw",
+      "Date Found": "2022/08/20"
+    },
+    "4": {
+      "Name": "OOB Line",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/1014299077166514277",
+      "Date Found": "2022/08/20"
+    }
+  },
+  "M100": {
+    "1": {
+      "Name": "Lake MFG",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/730192490463887441",
+      "Date Found": "2020/07/07"
+    },
+    "2": {
+      "Name": "Half Skip",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    }
+  },
+  "VEN": {
+    "1": {
+      "Name": "Universal Skip",
+      "Found By": "acE",
+      "Link": "https://youtu.be/evkheU5POKE",
+      "Date Found": "2019/01/11"
+    },
+    "2": {
+      "Name": "Universal Skip v2",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/992917408106958998",
+      "Date Found": ""
+    },
+    "4": {
+      "Name": "Ai Skip",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/782579455280414731",
+      "Date Found": "2020/11/29"
+    },
+    "8": {
+      "Name": "offthrottle jump",
+      "Found By": "Domirae",
+      "Link": "https://www.youtube.com/watch?v=XvWVs9dkW2ss",
+      "Date Found": "2022/07/02"
+    }
+  },
+  "SMR": {
+    "1": {
+      "Name": "Downhill Cut",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "2": {
+      "Name": "Tunnel MFG",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/961916464812658709",
+      "Date Found": "2022/04/08"
+    }
+  },
+  "SC": {
+    "1": {
+      "Name": "Shortest Cut",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/716399941228036166",
+      "Date Found": "2020/05/30"
+    },
+    "2": {
+      "Name": "Shortest Skip",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/879137539720642572",
+      "Date Found": "2021/08/22"
+    },
+    "4": {
+      "Name": "Wall Jump",
+      "Found By": "Domirae",
+      "Link": "https://youtu.be/_1hWmfoPKDY",
+      "Date Found": "2022/05/13"
+    },
+    "8": {
+      "Name": "Fish Skip",
+      "Found By": "yam",
+      "Link": "https://youtu.be/NE3-twG2fIw",
+      "Date Found": "2022/08/20"
+    },
+    "16": {
+      "Name": "OOB Line",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/1014299077166514277",
+      "Date Found": "2022/08/20"
+    },
+    "32": {
+      "Name": "Shortcut MFG",
+      "Found By": "acE",
+      "Link": "https://youtu.be/PPjFrXdqeBg",
+      "Date Found": "2019/02/28"
+    },
+    "64": {
+      "Name": "Ai Skip",
+      "Found By": "Domirae",
+      "Link": "https://youtu.be/xvqoqZowsFU",
+      "Date Found": "2020/11/22"
+    },
+    "128": {
+      "Name": "Ai Trigger Skip",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "256": {
+      "Name": "Ai 2x",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    }
+  },
+  "HG": {
+    "1": {
+      "Name": "Lake Cut",
+      "Found By": "",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/985069757801857034",
+      "Date Found": ""
+    },
+    "2": {
+      "Name": "Lap 1 Tent",
+      "Found By": "",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/539358992195911680",
+      "Date Found": ""
+    },
+    "4": {
+      "Name": "Cave Skip",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/525550610741985310",
+      "Date Found": "2018/12/03"
+    },
+    "8": {
+      "Name": "Bridge Cut",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/949112378396643330",
+      "Date Found": "2022/03/04"
+    },
+    "16": {
+      "Name": "OOB End",
+      "Found By": "acE",
+      "Link": "https://youtu.be/AcQRdh-mmHQ",
+      "Date Found": "2019/08/28"
+    },
+    "32": {
+      "Name": "Tent Entry",
+      "Found By": "acE",
+      "Link": "https://youtu.be/MbwlxK-dDbQ",
+      "Date Found": "2020/02/15"
+    },
+    "64": {
+      "Name": "Pipeline Cut",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/758309127814119444",
+      "Date Found": "2020/09/23"
+    },
+    "128": {
+      "Name": "Refinery MFG",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "256": {
+      "Name": "Pipeline MFG",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "512": {
+      "Name": "Archway MFG",
+      "Found By": "galeforce",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/599181503028789268",
+      "Date Found": "2019/07/12"
+    },
+    "1024": {
+      "Name": "Safe Cave Skip",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "2048": {
+      "Name": "Bridge Jump",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "4096": {
+      "Name": "Lap 1 Right Path",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "8192": {
+      "Name": "Lap1 Left Path",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "16384": {
+      "Name": "Lap1 Left-Right Path"
+    },
+    "32768": {
+      "Name": "Lap2 Bridge Path"
+    },
+    "65536": {
+      "Name": "Lap2 Cave Path"
+    }
+  },
+  "DD": {
+    "1": {
+      "Name": "Legacy Skip",
+      "Found By": "WMJ",
+      "Link": "https://youtu.be/wpydSb8rJ-A",
+      "Date Found": "2005/08/06"
+    },
+    "2": {
+      "Name": "Lap Skip",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/854166585387515914",
+      "Date Found": "2021/06/15"
+    },
+    "4": {
+      "Name": "Double Lap",
+      "Found By": "acE",
+      "Link": "https://www.youtube.com/watch?v=VEhj1VlKG50",
+      "Date Found": "2022/03/10"
+    },
+    "8": {
+      "Name": "Triple Lap",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/1071617453009928313",
+      "Date Found": "2023/02/05"
+    },
+    "16": {
+      "Name": "Hill Boost",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/1114546859244011581",
+      "Date Found": "2023/06/03"
+    }
+  },
+  "SR": {
+    "1": {
+      "Name": "Main Skip",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "2": {
+      "Name": "Bridge Jump",
+      "Found By": "acE",
+      "Link": "https://youtu.be/yCgjl7EphSk",
+      "Date Found": "2019/07/23"
+    },
+    "4": {
+      "Name": "Tube Ladder",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/862839712452182027",
+      "Date Found": "2021/07/09"
+    },
+    "8": {
+      "Name": "Tube Entry",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/873089471258701855",
+      "Date Found": "2021/08/06"
+    },
+    "16": {
+      "Name": "OOB End",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "32": {
+      "Name": "Various MFGs",
+      "Found By": "hellfire",
+      "Link": "https://youtu.be/NyBNkwVN34U",
+      "Date Found": "2023/06/19"
+    }
+  },
+  "ZC": {
+    "1": {
+      "Name": "3rd Skip",
+      "Found By": "acE",
+      "Link": "https://www.twitch.tv/videos/325623515",
+      "Date Found": "2018/10/21"
+    },
+    "2": {
+      "Name": "2nd Skip",
+      "Found By": "acE",
+      "Link": "https://youtu.be/kKCcuqYnM5k",
+      "Date Found": "2020/07/23"
+    },
+    "4": {
+      "Name": "1st Skip",
+      "Found By": "acE",
+      "Link": "https://youtu.be/XwkO7-VZMJE",
+      "Date Found": "2020/09/13"
+    },
+    "8": {
+      "Name": "Dozer MFG",
+      "Found By": "acE",
+      "Link": "https://youtu.be/71lIjhVrBtc",
+      "Date Found": "2020/02/01"
+    },
+    "16": {
+      "Name": "Ai Skip",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/782572868440424448",
+      "Date Found": "2020/11/29"
+    }
+  },
+  "BC": {
+    "1": {
+      "Name": "Wall MFG",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/722404267226431489",
+      "Date Found": "2020/06/16"
+    },
+    "2": {
+      "Name": "City Ai",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/726550991872196610",
+      "Date Found": "2020/06/27"
+    }
+  },
+  "BB": {
+    "1": {
+      "Name": "Reverse Skip",
+      "Found By": "WMJ",
+      "Link": "https://youtu.be/1QU0OvOuoQM",
+      "Date Found": "2005/08/04"
+    },
+    "2": {
+      "Name": "Shortest Cut",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/716399941228036166",
+      "Date Found": "2020/05/30"
+    },
+    "4": {
+      "Name": "Wallride",
+      "Found By": "Zooty",
+      "Link": "https://youtu.be/yNPTJB5Vpfg",
+      "Date Found": "2020/07/22"
+    },
+    "8": {
+      "Name": "Ultimate Skip",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/949918662079442964",
+      "Date Found": "2022/03/06"
+    },
+    "16": {
+      "Name": "Backup Skip",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/1004374033451712564",
+      "Date Found": "2022/08/03"
+    },
+    "32": {
+      "Name": "Shortcut MFG",
+      "Found By": "acE",
+      "Link": "https://youtu.be/PPjFrXdqeBg",
+      "Date Found": "2019/02/28"
+    },
+    "64": {
+      "Name": "Wall MFG",
+      "Found By": "acE",
+      "Link": "https://youtu.be/p595gh1pzsY",
+      "Date Found": "2021/09/23"
+    },
+    "128": {
+      "Name": "Tube Jump",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    }
+  },
+  "EXE": {
+    "1": {
+      "Name": "Legacy Skip",
+      "Found By": "acE",
+      "Link": "https://www.twitch.tv/videos/325123661",
+      "Date Found": "2018/10/20"
+    },
+    "2": {
+      "Name": "Universal Skip",
+      "Found By": "acE",
+      "Link": "https://youtu.be/evkheU5POKE",
+      "Date Found": "2019/01/11"
+    },
+    "4": {
+      "Name": "Load Trigger Abuse",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/992147900576575579",
+      "Date Found": "2022/06/30"
+    },
+    "8": {
+      "Name": "offthrottle jump",
+      "Found By": "Domirae",
+      "Link": "https://www.youtube.com/watch?v=XvWVs9dkW2ss",
+      "Date Found": "2022/07/02"
+    },
+    "16": {
+      "Name": "Legacy Insta Launch",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "32": {
+      "Name": "Legacy Right Side",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "64": {
+      "Name": "6x Jump Route",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "128": {
+      "Name": "Legacy Dropdown",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "256": {
+      "Name": "Legacy Left of Fence",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    }
+  },
+  "SL": {
+    "1": {
+      "Name": "Main Skip",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "2": {
+      "Name": "Downhill Skip",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/865425317019648031",
+      "Date Found": "2021/07/16"
+    },
+    "4": {
+      "Name": "Load Trigger Cut",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/985592874949312552",
+      "Date Found": "2022/06/12"
+    },
+    "8": {
+      "Name": "Tunnel Strats",
+      "Found By": "MikeyBurger",
+      "Link": "https://youtu.be/BMqJZKd2hgQ",
+      "Date Found": "2020/11/06"
+    },
+    "16": {
+      "Name": "3x tunnel",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "32": {
+      "Name": "No Tunnel",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    }
+  },
+  "GVG": {
+    "1": {
+      "Name": "lap 1 sc skip",
+      "Found By": "yam",
+      "Link": "",
+      "Date Found": ""
+    },
+    "2": {
+      "Name": "Rock MFG",
+      "Found By": "acE",
+      "Link": "https://youtu.be/uu-vQxldbbU",
+      "Date Found": "2019/05/24"
+    },
+    "4": {
+      "Name": "Ai Skip",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/861970946445672499",
+      "Date Found": "2021/07/06"
+    },
+    "8": {
+      "Name": "Swamp MFG",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/879700385131016302",
+      "Date Found": "2021/08/24"
+    }
+  },
+  "AMR": {
+    "1": {
+      "Name": "Lake Cut",
+      "Found By": "",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/985069757801857034",
+      "Date Found": ""
+    },
+    "2": {
+      "Name": "Lap 1 Tent",
+      "Found By": "",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/539358992195911680",
+      "Date Found": ""
+    },
+    "4": {
+      "Name": "Cave Skip",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/525550610741985310",
+      "Date Found": "2018/12/03"
+    },
+    "8": {
+      "Name": "Bridge Cut",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/949112378396643330",
+      "Date Found": "2022/03/04"
+    },
+    "16": {
+      "Name": "Canyon Skip",
+      "Found By": "acE",
+      "Link": "https://www.twitch.tv/ace_sr/clip/UgliestDependableReindeerWoofer",
+      "Date Found": "2018/10/20"
+    },
+    "32": {
+      "Name": "Archway MFG",
+      "Found By": "galeforce",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/599181503028789268",
+      "Date Found": "2019/07/12"
+    },
+    "64": {
+      "Name": "Safe Cave Skip",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "128": {
+      "Name": "Bridge Jump",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "256": {
+      "Name": "Lap 1 Right Path",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "512": {
+      "Name": "Lap1 Left Path",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "1024": {
+      "Name": "Lap1 Left-Right Path",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "2048": {
+      "Name": "Lap2 Bridge Path",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "4096": {
+      "Name": "Lap2 Cave Path",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "8192": {
+      "Name": "Fast Canyon"
+    }
+  },
+  "DR": {
+    "1": {
+      "Name": "Roof Cut",
+      "Found By": "yuyu",
+      "Link": "https://www.nicovideo.jp/watch/sm15379105",
+      "Date Found": "2011/08/21"
+    },
+    "2": {
+      "Name": "Tube Cut",
+      "Found By": "Zinfidel",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/783605695932530698",
+      "Date Found": "2020/12/02"
+    },
+    "4": {
+      "Name": "Startline Jump",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/971737068508151808",
+      "Date Found": "2022/05/05"
+    },
+    "8": {
+      "Name": "Roof Skip",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/987932705431900200",
+      "Date Found": "2022/06/19"
+    },
+    "16": {
+      "Name": "Roof Strats",
+      "Found By": "yuyu",
+      "Link": "https://www.nicovideo.jp/watch/sm15379105",
+      "Date Found": "2011/08/21"
+    },
+    "32": {
+      "Name": "3x Roof",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "64": {
+      "Name": "OOB end",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "128": {
+      "Name": "Various MFGs",
+      "Found By": "hellfire",
+      "Link": "https://youtu.be/opfEs8B3nnk",
+      "Date Found": ""
+    }
+  },
+  "FMR": {
+    "1": {
+      "Name": "Lap 1 Quake",
+      "Found By": "andypanther",
+      "Link": "https://youtu.be/SipNnIrP_hc",
+      "Date Found": "2018/08/06"
+    },
+    "2": {
+      "Name": "Cheeseland Skip",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/994783172053184574",
+      "Date Found": "2022/07/08"
+    },
+    "4": {
+      "Name": "Lava Skip",
+      "Found By": "goofbrush",
+      "Link": "",
+      "Date Found": ""
+    },
+    "8": {
+      "Name": "Lap1 Quake Jump",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/1047740182880849990",
+      "Date Found": "2022/12/01"
+    },
+    "16": {
+      "Name": "Cheeseland Ai",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/782560770684747807",
+      "Date Found": "2020/11/29"
+    },
+    "32": {
+      "Name": "Ai Skip",
+      "Found By": "",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/993912041595211776",
+      "Date Found": ""
+    },
+    "64": {
+      "Name": "Branch MFG",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/984511304138129508",
+      "Date Found": "2022/06/09"
+    }
+  },
+  "BEC": {
+    "1": {
+      "Name": "Canyon Skip",
+      "Found By": "acE",
+      "Link": "https://www.twitch.tv/ace_sr/clip/EsteemedAnimatedNightingaleEleGiggle",
+      "Date Found": "2018/10/17"
+    },
+    "2": {
+      "Name": "Startline MFG",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/942415109161099335",
+      "Date Found": "2022/02/13"
+    },
+    "4": {
+      "Name": "Small AI skip",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/855571167497420801",
+      "Date Found": "2021/06/18"
+    },
+    "8": {
+      "Name": "Medium AI Skip",
+      "Found By": "DouchemanMacgee",
+      "Link": "",
+      "Date Found": ""
+    },
+    "16": {
+      "Name": "Ai Skip",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/1002700511646060726",
+      "Date Found": "2022/07/10"
+    }
+  },
+  "APC": {
+    "1": {
+      "Name": "Hairpin Skip",
+      "Found By": "acE",
+      "Link": "https://www.twitch.tv/videos/325658698",
+      "Date Found": "2018/10/21"
+    },
+    "2": {
+      "Name": "Cave Skip",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "4": {
+      "Name": "Drop MFG",
+      "Found By": "MikeyBurger",
+      "Link": "https://www.youtube.com/watch?v=MEbQ4GSCuDM&ab_channel=StarWrasEpisodeOneRacerMike",
+      "Date Found": "2009/12/18"
+    },
+    "8": {
+      "Name": "Pillar MFG",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/879535244238290984",
+      "Date Found": "2021/08/24"
+    }
+  },
+  "ABY": {
+    "1": {
+      "Name": "Lap Skip v1",
+      "Found By": "Myles Bukrim",
+      "Link": "https://youtu.be/GBNa2ibB0VM",
+      "Date Found": "2005/12/08"
+    },
+    "2": {
+      "Name": "Lap Skip v2",
+      "Found By": "Myles Bukrim",
+      "Link": "https://youtu.be/zbF6REBquIw",
+      "Date Found": "2009/08/06"
+    },
+    "4": {
+      "Name": "Platform MFG",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "8": {
+      "Name": "Startline MFG",
+      "Found By": "MikeyBurger",
+      "Link": "https://www.youtube.com/watch?v=XcgrNOj_JjA",
+      "Date Found": "2011/02/05"
+    },
+    "16": {
+      "Name": "Mid Lap Skip",
+      "Found By": "Myles Bukrim",
+      "Link": "https://youtu.be/GBNa2ibB0VM",
+      "Date Found": "2005/12/08"
+    }
+  },
+  "TGT": {
+    "1": {
+      "Name": "DropDown Hairpin",
+      "Found By": "",
+      "Link": "",
+      "Date Found": ""
+    },
+    "2": {
+      "Name": "Bowl Jump",
+      "Found By": "MikeyBurger",
+      "Link": "https://youtu.be/VdOXaOrqOv0",
+      "Date Found": "2009/06/27"
+    },
+    "4": {
+      "Name": "Bowl Cut",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/851907832077090817",
+      "Date Found": "2021/06/08"
+    },
+    "8": {
+      "Name": "Legacy Skip",
+      "Found By": "MikeyBurger",
+      "Link": "https://youtu.be/unEbVRIv7Pg",
+      "Date Found": "2009/10/24"
+    },
+    "16": {
+      "Name": "Dwayne Skip",
+      "Found By": "acE",
+      "Link": "https://youtu.be/DQYqbLRuhvs",
+      "Date Found": "2022/01/28"
+    },
+    "32": {
+      "Name": "Ultimate Dwayne",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/813757122969468989",
+      "Date Found": "2021/02/23"
+    },
+    "64": {
+      "Name": "Start2Magnet",
+      "Found By": "yam",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/954165298724999188",
+      "Date Found": "2022/03/17"
+    },
+    "128": {
+      "Name": "FLap Cut",
+      "Found By": "acE",
+      "Link": "https://youtu.be/iT4dBHmbgjQ",
+      "Date Found": "2020/10/08"
+    },
+    "256": {
+      "Name": "Universal OOB",
+      "Found By": "acE",
+      "Link": "https://youtu.be/evkheU5POKE",
+      "Date Found": "2019/01/11"
+    },
+    "512": {
+      "Name": "FLap Cut v2",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/992147900576575579",
+      "Date Found": "2022/06/30"
+    },
+    "1024": {
+      "Name": "Quarry Ride",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/860119227905343509",
+      "Date Found": "2021/07/01"
+    },
+    "2048": {
+      "Name": "Reverse Dwayne"
+    },
+    "4096": {
+      "Name": "Pillar Ride",
+      "Found By": "acE"
+    }
+  },
+  "INF": {
+    "1": {
+      "Name": "Volcano Skip",
+      "Found By": "WMJ",
+      "Link": "https://youtu.be/2EU2psTORsM",
+      "Date Found": "2005/08/05"
+    },
+    "2": {
+      "Name": "Starting Wallride",
+      "Found By": "MikeyBurger",
+      "Link": "https://youtu.be/uqcW1x1vYEA",
+      "Date Found": "2009/08/07"
+    },
+    "4": {
+      "Name": "Half Lap Skip",
+      "Found By": "Cobalt",
+      "Link": "https://youtu.be/g2-RDbgJPjc",
+      "Date Found": "2017/03/31"
+    },
+    "8": {
+      "Name": "Lap Skip",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375389081403413/626751997428891667",
+      "Date Found": "2019/09/26"
+    },
+    "16": {
+      "Name": "Lava Cut",
+      "Found By": "acE",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/882143634756083772",
+      "Date Found": "2021/8/31"
+    },
+    "32": {
+      "Name": "Fast Lap MFG",
+      "Found By": "goofbrush",
+      "Link": "https://discord.com/channels/441839750555369474/449375461886132235/880187402486956062",
+      "Date Found": "2021/08/25"
+    }
+  }
+}
