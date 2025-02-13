@@ -544,7 +544,7 @@ const dataPage = () => {
 }
 
 
-export default function About() {
+export default function Main() {
   
   const ruleSet = "2021 sheet";
   
@@ -626,10 +626,6 @@ export default function About() {
 
   return (
     <div>
-      <div style={{position:"fixed"}}>
-        <button onClick={()=>{filterBoard(data,setBoard,getRunData,filter)}}/>
-        <button onClick={()=>{changeFilter({date:"2029-10-28"})}}/>
-      </div>
       
       <ContentNav changeTab={changeTab}/>
       
