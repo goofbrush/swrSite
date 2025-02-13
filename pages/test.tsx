@@ -393,7 +393,7 @@ function RenderTable ({table, headers}
               header == "Platform"
               ? { backgroundImage: `url('/plat/${row[header]}.png')` }
               : header == "Pod"
-              ? { backgroundImage: `url('/pod/${row[header]}.png')` }
+              ? { backgroundImage: `url('public/pod/${row[header]}.png')` }
               : undefined
             }
             className={header === "Player" ? "style-" + row[header] : header}
