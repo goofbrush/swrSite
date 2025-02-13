@@ -391,9 +391,9 @@ function RenderTable ({table, headers}
               // header == "Position" && Number(row[header]) < 5
               // ? { color:"transparent", backgroundImage: `url('/pos/${row[header]}.png')` } :
               header == "Platform"
-              ? { backgroundImage: `url('/plat/${row[header]}.png')` }
+              ? { backgroundImage: `url('https://goofbrush.github.io/swrSite/plat/${row[header]}.png')` }
               : header == "Pod"
-              ? { backgroundImage: `url('public/pod/${row[header]}.png')` }
+              ? { backgroundImage: `url('https://goofbrush.github.io/swrSite/pod/${row[header]}.png')` }
               : undefined
             }
             className={header === "Player" ? "style-" + row[header] : header}
