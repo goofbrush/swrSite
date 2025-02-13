@@ -280,7 +280,7 @@ const hoverElement = (run:any) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return(
-    <div style={{height:"100%",backgroundImage: `url('/icons/note.png')`}}
+    <div style={{height:"100%",backgroundImage: `url('./icons/note.png')`}}
     className="hoverParent" onMouseEnter={()=>setIsHovered(true)}
     onMouseLeave={()=>setIsHovered(false)} >
       
@@ -391,9 +391,9 @@ function RenderTable ({table, headers}
               // header == "Position" && Number(row[header]) < 5
               // ? { color:"transparent", backgroundImage: `url('/pos/${row[header]}.png')` } :
               header == "Platform"
-              ? { backgroundImage: `url('https://goofbrush.github.io/swrSite/plat/${row[header]}.png')` }
+              ? { backgroundImage: `url('./plat/${row[header]}.png')` }
               : header == "Pod"
-              ? { backgroundImage: `url('https://goofbrush.github.io/swrSite/pod/${row[header]}.png')` }
+              ? { backgroundImage: `url('./pod/${row[header]}.png')` }
               : undefined
             }
             className={header === "Player" ? "style-" + row[header] : header}
