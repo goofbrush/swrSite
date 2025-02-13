@@ -40,7 +40,7 @@ export async function fetchSpreadsheetData(type:"times"|"players"|"strats"|"extr
   if(allData[type].data && !update) return allData[type].data;
   
   if(useLocal) { 
-    const jsonData = await import("../json/"+type+".json");
+    const jsonData = await import("../public/data/"+type+".json");
     allData[type].data = jsonData.default || jsonData;
     console.log("fetched: "+type+" from local file");
     return allData[type].data;
