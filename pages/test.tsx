@@ -2,11 +2,10 @@ import { useState, useRef, useEffect } from "react";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import ReactPlayer from "react-player";
-import { fetchSpreadsheetData, download, tuah } from "../scripts/data";
 import { FixedSizeList as List } from "react-window";
 import Scrollbars from "react-custom-scrollbars-2";
 
-type DataRow = { [key: string]: any };
+export type DataRow = { [key: string]: any };
 
 type CountAccumulator = {
   skip: [number, number, number];
@@ -14,7 +13,7 @@ type CountAccumulator = {
   lap: [number, number];
 };
 
-interface FilterCriteria {
+export interface FilterCriteria {
   track?: string | null;
   laps?: string | null;
   
@@ -36,7 +35,7 @@ const lists = {
   "lap": ["3 lap", "Fast lap"]
 }
 const trackList = ["BTC","MGS","BWR","AQC","M100","VEN","SMR","SC","HG","DD","SR","ZC","BC","BB","EXE","SL","GVG","AMR","DR","FMR","BEC","APC","ABY","TGT","INF"];
-const tabList = ["Home", "Tracks", "Players", "Leaderboard", "Submit", "Data"];
+
 
 const platformMap: { [key: string]: number } = { "PC": 0, "N64":1, "Dreamcast":1, "Switch":2, "Xbox One":2, "PS4":2 }; 
 
@@ -78,9 +77,33 @@ const platformMap: { [key: string]: number } = { "PC": 0, "N64":1, "Dreamcast":1
 // action over date to set the table date filter to that date
 // toggle to show delta from wr, in obsolete mode also show delta from pb
 
+function getRunData(Data:any, Run:any) {
+  const [extra,strats,rules,ruleSet] = [Data.extra,Data.strats,Data.rules,Data.ruleSet];
+  const [track,sNumber,eNumber] = [Run.Track,Run["Strats Data"],Run["Extra Data"]];
+  
+  const extraData = Object.keys(extra).reduce<string[]>((acc, key) => {
+    if (eNumber & +key) acc.push(extra[key]);
+    return acc;
+  }, []);
+  
+  const stratData = sNumber < 0? [] :
+    Object.keys(strats[track]).reduce<string[]>((acc, key) => {
+      if (sNumber & +key) acc.push(strats[track][key].Name);
+      return acc;
+    }, []);
+  
+  var [ruling, ruling2] = rules[ruleSet][track.toLowerCase()].split(",")
+    .map((num:string) => (sNumber>0 && +num & sNumber)? true:false);
+  ruling = sNumber==-1? true: ruling;
+  ruling2 = sNumber==-2? true: ruling2;
+  
+  const eRuling = +rules[ruleSet]["general"] & eNumber ? true:false;
+  
+  const b = { sRule:ruling, s2Rule:ruling2 || false, eRule:eRuling, sData: stratData, eData: extraData }
+  return b;
+}
 
-
-function filterBoard(Data: DataRow[] | null, setBoard:any, getRunData:any, newFilter: FilterCriteria) {
+export function filterBoard(Data: DataRow[] | null, ruleData:any, setBoard:any, newFilter: FilterCriteria) {
   
   if(!Data) return;
   console.time("filter board");
@@ -154,7 +177,7 @@ function filterBoard(Data: DataRow[] | null, setBoard:any, getRunData:any, newFi
     
     
   // set variable data | TODO: optimise or only run this with a flag
-    run.runData = getRunData(run.Track, run["Strats Data"], run["Extra Data"]);
+    run.runData = getRunData(ruleData,run);
     run.skipType = run.runData.s2Rule ? 2 : run.runData.sRule ? 1 : 0;
     
     
@@ -301,7 +324,7 @@ const hoverElement = (run:any) => {
 }
 
 
-function XStateRadio({ options, onClickLogic, disableLogic = () => false, defaultOption = null }
+export function XStateRadio({ options, onClickLogic, disableLogic = () => false, defaultOption = null }
   : { options: string[], onClickLogic: (value: string) => void, 
     disableLogic?: (value: string) => boolean, 
     defaultOption?: string | null }) {
@@ -349,13 +372,7 @@ function Dropdown({options, changeFilter, defaultOption}
   );
 }
 
-function ContentNav({changeTab}:{changeTab:any}) {
-  return (
-    <div className="content-nav">
-      <XStateRadio options={tabList} onClickLogic={(x) => { changeTab(x) }} defaultOption={"Tracks"}/>
-    </div>
-  );
-}
+
 
 function RenderTable ({table, headers} 
   : {table:DataRow | null, headers :string[]}) {
@@ -373,7 +390,8 @@ function RenderTable ({table, headers}
   }, []);
   
   useEffect(() => {
-    setListHeight(Math.min(table.length * rowSize, windowHeight - 420));
+    const size = Math.min(table.length * rowSize, Math.max(250,windowHeight - 385));
+    setListHeight(size);
   }, [table.length, windowHeight]);
   
   const Row = ({ index, style }: { index: number, style: React.CSSProperties }) => {
@@ -453,7 +471,7 @@ const CustomScrollbars = React.forwardRef<Scrollbars, CustomScrollbarsProps>(({ 
 
 
 
-const TrackPage = (board: DataRow[] | null, filter:FilterCriteria, changeFilter: any) => {
+export const TrackPage = (board: DataRow[] | null, filter:FilterCriteria, changeFilter: any) => {
   const obsoleteSelect = ["Unique", "Default", "Obsolete"];
   const consoleSelect = ["All", "Console", "NewGen"];
   
@@ -525,7 +543,7 @@ const TrackPage = (board: DataRow[] | null, filter:FilterCriteria, changeFilter:
   );
 };
 
-const playerPage = () => {
+export const PlayerPage = () => {
   return (
     <div>
 
@@ -535,7 +553,7 @@ const playerPage = () => {
   );
 };
 
-const dataPage = () => {
+export const DataPage = () => {
   return(
     <div>
       <XStateRadio options={["Times","Players","Strats ","Par Times","Pod Stats","Simulator","Tournament","Botto","Mods","Settings","About"]} onClickLogic={() => {}}/>
@@ -543,130 +561,4 @@ const dataPage = () => {
   )
 }
 
-
-export default function Main() {
-  
-  const ruleSet = "2021 sheet";
-  
-  const [tab, setTab] = useState<string>("Tracks");
-  
-  const [data, setData] = useState<DataRow[] | null>(null);
-  const [board, setBoard] = useState<DataRow[] | null>(null);
-  
-  const [extra, setExtra] = useState<any>(null);
-  const [strats, setStrats] = useState<any>(null);
-  const [rules, setRules] = useState<any>(null);
-  
-  const [filter, setFilter] = useState<FilterCriteria>({
-    track: "BTC",
-    laps: "3 lap",
-    skips: "Full Track",
-    
-    upgrades: "TRUE",
-    
-    uniquePlayer: true,
-    fastestPod: false,
-    platformFilter: 0
-  });
-  
-  function changeTab(newTab: string) {
-    setTab(newTab);
-  }
-  
-  function getRunData(track: string, sNumber: number, eNumber: number) {
-    
-    const extraData = Object.keys(extra).reduce<string[]>((acc, key) => {
-      if (eNumber & +key) acc.push(extra[key]);
-      return acc;
-    }, []);
-    
-    const stratData = sNumber < 0? [] :
-      Object.keys(strats[track]).reduce<string[]>((acc, key) => {
-        if (sNumber & +key) acc.push(strats[track][key].Name);
-        return acc;
-      }, []);
-    
-    var [ruling, ruling2] = rules[ruleSet][track.toLowerCase()].split(",")
-      .map((num:string) => (sNumber>0 && +num & sNumber)? true:false);
-    ruling = sNumber==-1? true: ruling;
-    ruling2 = sNumber==-2? true: ruling2;
-    
-    const eRuling = +rules[ruleSet]["general"] & eNumber ? true:false;
-    
-    const b = { sRule:ruling, s2Rule:ruling2 || false, eRule:eRuling, sData: stratData, eData: extraData }
-    return b;
-  }
-  
-  function changeFilter(newFilter: FilterCriteria) {
-    const updatedFilter = { ...filter, ...newFilter };
-    filterBoard(data, setBoard, getRunData, updatedFilter);
-    setFilter(updatedFilter);
-  }
-  
-  
-  
-  
-  const useLocalFile = true;
-  useEffect(() => {
-    const fetchData = async () => {
-      fetchSpreadsheetData("players",useLocalFile);
-      setExtra(await fetchSpreadsheetData("extra",useLocalFile));
-      setStrats(await fetchSpreadsheetData("strats",useLocalFile));
-      setRules(await fetchSpreadsheetData("rules",useLocalFile));
-      setData(await fetchSpreadsheetData("times",useLocalFile));
-    };
-    fetchData();
-  }, []);
-  
-  useEffect(() => {
-    if (data && extra && strats && rules) {
-      filterBoard(data, setBoard, getRunData, filter);
-    }
-  }, [data, extra, strats, rules]);
-
-  return (
-    <div>
-      
-      <ContentNav changeTab={changeTab}/>
-      
-      
-      <div className="content">
-        
-        
-        
-        {
-          data === null ? (
-            <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-              <div className="spinner"/>
-              { useLocalFile? "using local file" : "pulling from googlesheets" }
-            </div>
-        ) :
-          <>
-            
-            { tab === "Tracks" && TrackPage(board, filter, changeFilter) }
-            { tab === "Players" && playerPage() }
-            { tab === "Data" && dataPage() }
-            
-          </>
-        }
-        
-        
-        
-      </div>
-      
-      <div className="footer">
-        
-        <button style={{ backgroundSize:"cover", backgroundImage: `url('/icons/download.png')` }} onClick={() => download("times")}/>
-        
-        <a>data</a>
-        <a>src</a>
-        <a>cs</a>
-
-        
-        <a>discord</a>
-      </div>
-      
-    </div>
-  );
-}
 

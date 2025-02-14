@@ -29,7 +29,9 @@ body, html {
 
 .content-nav {
   background-color: #242438;
-  width: 824px;
+
+  max-width: 824px;
+  min-width: 759px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -39,7 +41,8 @@ body, html {
 
 .footer {
   background-color: #242438;
-  width: 800px;
+  max-width: 800px;
+  min-width: 735px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 8px;
@@ -64,7 +67,8 @@ body, html {
 
 .content {
   background-color: #303050;
-  width: 800px;
+  max-width: 800px;
+  min-width: 735px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 0 0 8px 8px;
@@ -137,7 +141,6 @@ body, html {
   scrollbar-width: none;
   -ms-overflow-style: none;
   height:100%;
-
 }
 
 .vList div {
