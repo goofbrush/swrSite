@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { fetchSpreadsheetData, download } from "../scripts/data";
 import { FilterCriteria,DataRow, filterBoard, XStateRadio, TrackPage,PlayerPage,DataPage } from "../pages/test";
 
