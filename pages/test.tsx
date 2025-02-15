@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useEffect } from "react";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import ReactPlayer from "react-player";
@@ -40,6 +40,9 @@ const trackList = ["BTC","MGS","BWR","AQC","M100","VEN","SMR","SC","HG","DD","SR
 const platformMap: { [key: string]: number } = { "PC": 0, "N64":1, "Dreamcast":1, "Switch":2, "Xbox One":2, "PS4":2 }; 
 
 //TODO:
+
+// wr breakdown, like circumark. +obsolete
+
 // show quick board stats, # of runs / obsolete / wrs
 // popup to show big track details, casual details, pod fave etc
 // wr progression
@@ -107,7 +110,7 @@ export function filterBoard(Data: DataRow[] | null, ruleData:any, setBoard:any, 
   
   if(!Data) return;
   console.time("filter board");
-
+  
   const track= newFilter.track ?? "BTC";
   const laps= newFilter.laps ?? "3 lap";
   const skips= newFilter.skips ?? "Full Track";
@@ -255,7 +258,7 @@ export function filterBoard(Data: DataRow[] | null, ruleData:any, setBoard:any, 
 const VideoTabs = ({ urls }: { urls: string }) => {
   if(!urls) return null;
   
-  const videoLinks = urls.split(",").map((url,i) => [i,url.trim()]);
+  const videoLinks = urls.split(",").map((url, i) => [i, url.trim().split("&list")[0]]);
   
   const [activeIndex, setActiveIndex] = useState(0);
   
@@ -546,9 +549,7 @@ export const TrackPage = (board: DataRow[] | null, filter:FilterCriteria, change
 export const PlayerPage = () => {
   return (
     <div>
-
         hej
-        
     </div>
   );
 };
@@ -562,6 +563,4 @@ export const DataPage = () => {
 }
 
 
-export default function T() {
-  return null;
-}
+export default function T() {  return null; }
