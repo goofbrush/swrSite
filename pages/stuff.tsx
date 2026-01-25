@@ -342,7 +342,7 @@ const hoverElement = (run:any) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return(
-    <div style={{height:"100%",backgroundImage: `url('./icons/note.png')`}}
+    <div style={{height:"100%",backgroundImage: `url('/swrSite/icons/note.png')`}}
     className="hoverParent" onMouseEnter={()=>setIsHovered(true)}
     onMouseLeave={()=>setIsHovered(false)} >
       

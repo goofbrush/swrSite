@@ -161,7 +161,7 @@ export default function Home() {
       
       <div className="footer">
         <button style={{ backgroundSize:"cover", 
-          backgroundImage: `url('./icons/download.png')` }} 
+          backgroundImage: `url('/swrSite/icons/download.png')` }} 
           onClick={() => download("times")}/>
         <a>data</a><a>src</a><a>cs</a><a>discord</a><a>github</a>
       </div>
