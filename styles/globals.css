@@ -17,6 +17,19 @@
     --foreground: #ededed;
   }
 }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+  opacity: 1;
+
+}
+
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 body, html {
   color: var(--foreground);
@@ -76,7 +89,10 @@ body, html {
   padding: 12px;
   
   overflow: hidden;
-
+  animation: fade-in 0.75s ease;
+}
+.subContent {
+  animation: fade-in 0.25s ease;
 }
 
 .spinner {
@@ -167,10 +183,11 @@ body, html {
   background: #404090;
   color: white;
   transition-duration: 100ms;
-  border: 1px dotted #FFFF00;
+  border-top: 1px dotted #FFFF00;
+  border-bottom: 1px dotted #FFFF00;
 }
 
-.vList td:nth-child(1), .vList td:nth-child(2), .vList td:nth-child(8) {
+/* .vList td:nth-child(1), .vList td:nth-child(2), .vList td:nth-child(8) {
   width:50px;
 }
 
@@ -183,7 +200,7 @@ body, html {
 }
 .vList td:nth-child(4), .vList td:nth-child(5){
   width:100px;
-}
+} */
 
 
 
@@ -228,10 +245,7 @@ body, html {
   z-index: 9999;
 }
 
-@keyframes fade-in {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
+
 
 .popupBackdrop {
   position: fixed;
@@ -400,7 +414,67 @@ button:disabled.active {
 
 
 
+.Simulator input{
+  color:white;
+  padding:3px;
+}
+.simTable {
+  text-align: center;
+  height: 200px !important;
+  width: 302px !important;
+  margin-right: 10px !important;
+}
+.stRed { border: 1px solid red; }
+.stGreen { border: 1px solid green; }
 
+.simTable table {
+  display:block;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+}
+.simTable td{
+  width:100%;
+  padding: 0px 3px 0px 3px;
+}
+
+.simTable td:not(.Selected):nth-child(n+3) {
+  color: grey;
+  font-style: italic;
+}
+.simTable td:nth-child(9) {
+  padding-right: 10px;
+}
+.simTable tr.Last {
+  position:sticky; 
+  bottom:0; 
+  z-index:1;
+  color: white !important;
+}
+.simTable tr.Last td {
+  color: white !important;
+}
+
+#damage tr.Last {
+  background:red;
+}
+#repair tr.Last {
+  background:green;
+}
+
+#damage td:nth-child(2) {
+  border-right: 3px double red;
+}
+#repair td:nth-child(2) {
+  border-right: 3px double green;
+}
+
+.Celldamage {
+  color: red;
+}
+.Cellrepair {
+  color: green;
+}
 
 /* ul {
   list-style-type: disc;

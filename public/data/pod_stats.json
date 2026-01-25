@@ -1,0 +1,117 @@
+{
+  "Anakin": { "name": "Anakin Skywalker", "species": "Human", "homeworld": "Tatooine", "pod": "Modified Radon-Ulzer 620C Racing Engines",
+    "intro": "It's the little human boy; born on Tatooine, uh... **Anakin Skywalker**. Well, let's hope he can just finish the race.",
+    "antiskid": 0.5, "turn_response": 300, "acceleration": 3, "max_speed": 490, "air_brake_interval": 30, "cool_rate": 9, "repair_rate": 0.4, "max_turn_rate": 110, 
+    "deceleration_interval": 60, "boost_thrust": 200, "heat_rate": 13.0, "hover_height": 4.99, "bump_mass": 50, "damage_immunity": 0.60, "isect_radius": 5.0
+  },
+  "Teemto": { "name": "Teemto Pagalies", "species": "Veknoid", "homeworld": "Moonus Mandel", "pod": "Irdani Performance Group-The IPG-X1131 LongTail",
+    "intro": "My money's on **Teemto Pagalies** for this race. Just look at the size of those engines!",
+    "antiskid": 0.5, "turn_response": 260, "acceleration": 1.7, "max_speed": 479, "air_brake_interval": 30, "cool_rate": 6, "repair_rate": 0.43, "max_turn_rate": 90, 
+    "deceleration_interval": 80, "boost_thrust": 195, "heat_rate": 14.0, "hover_height": 4.99, "bump_mass": 50, "damage_immunity": 0.50, "isect_radius": 8.0
+  },
+  "Sebulba": { "name": "Sebulba", "species": "Dug", "homeworld": "Malastare", "pod": "Collor Pondrat Plug-F Mammoth, Split-X Configured",
+    "intro": "There he is: the reigning champion of the Boonta Classic and the crowd favorite, **Sebulba**! \n *I'm betting heavily on Sebulba. He always wins!*",
+    "antiskid": 0.38, "turn_response": 228, "acceleration": 3.2, "max_speed": 600, "air_brake_interval": 38, "cool_rate": 2, "repair_rate": 0.19, "max_turn_rate": 95,
+    "deceleration_interval": 50, "boost_thrust": 185, "heat_rate": 9.0, "hover_height": 4.99, "bump_mass": 80, "damage_immunity": 0.30, "isect_radius": 7.0
+  },
+  "Ratts": { "name": "Ratts Tyerell", "species": "Aleena", "homeworld": "Aleen", "pod": "Vokoff-Strood Titan 1250 Scatalpen",
+    "intro": "Well I've got my money on that little scrapper **Ratts Tyerell**. He may be small in stature, but he's got a couple of the biggest racing engines I've ever seen.",
+    "antiskid": 0.35, "turn_response": 238, "acceleration": 4, "max_speed": 520, "air_brake_interval": 33, "cool_rate": 5, "repair_rate": 0.3, "max_turn_rate": 90, 
+    "deceleration_interval": 80, "boost_thrust": 300, "heat_rate": 12.0, "hover_height": 4.99, "bump_mass": 55, "damage_immunity": 0.45, "isect_radius": 7.0
+  },
+  "Aldar": { "name": "Aldar Beedo", "species": "Glymphid", "homeworld": "Ploo II", "pod": "Manta RamAir Mark IV Flat-Twin Turbojet",
+    "intro": "The track favorite is **Aldar Beedo**, a.k.a. *'The Hitman'*. Boy, he sure looks tough in that big Manta RamAir MARK IV podracer of his!",
+    "antiskid": 0.3, "turn_response": 250, "acceleration": 4, "max_speed": 517, "air_brake_interval": 35, "cool_rate": 4.5, "repair_rate": 0.25, "max_turn_rate": 85, 
+    "deceleration_interval": 85, "boost_thrust": 360, "heat_rate": 10.5, "hover_height": 4.99, "bump_mass": 68, "damage_immunity": 0.40, "isect_radius": 7.0
+  },
+  "Mawhonic": { "name": "Mawhonic", "species": "Gran", "homeworld": "Hok", "pod": "Galactic Power Engineering GPE-3130", 
+    "intro": "And in the front row, nearside pole position, **Mawhonic!**", 
+    "antiskid": 0.36, "turn_response": 224, "acceleration": 3.75, "max_speed": 480, "air_brake_interval": 41, "cool_rate": 7, "repair_rate": 0.2, "max_turn_rate": 100, 
+    "deceleration_interval": 80, "boost_thrust": 350, "heat_rate": 13.0, "hover_height": 4.99, "bump_mass": 60, "damage_immunity": 0.48, "isect_radius": 7.0 
+  },
+  "Bumpy": { "name": "Ark 'Bumpy' Roose", "species": "Nuknog", "homeworld": "Sump", "pod": "Vokoff-Strood Plug-8G 927 Cluster Array", 
+    "intro": "I think **Ark 'Bumpy' Roose** is the one to watch today. He really wants to win!", 
+    "antiskid": 0.3, "turn_response": 202, "acceleration": 1, "max_speed": 485, "air_brake_interval": 30, "cool_rate": 6.5, "repair_rate": 0.1, "max_turn_rate": 85, 
+    "deceleration_interval": 80, "boost_thrust": 210, "heat_rate": 10.5, "hover_height": 6.50, "bump_mass": 70, "damage_immunity": 0.25, "isect_radius": 6.0 
+  },
+  "Wan": { "name": "Wan Sandage", "species": "Devlikk", "homeworld": "Ord Radama", "pod": "Elsinore-Cordova Turbodyne 99-U", 
+    "intro": "I see that the dashing **Wan Sandage** has joined the group for today's race. He's been podracing since he was two!", 
+    "antiskid": 0.8, "turn_response": 294, "acceleration": 1.9, "max_speed": 480, "air_brake_interval": 25, "cool_rate": 3, "repair_rate": 0.19, "max_turn_rate": 95, 
+    "deceleration_interval": 70, "boost_thrust": 180, "heat_rate": 9.0, "hover_height": 7.00, "bump_mass": 60, "damage_immunity": 0.50, "isect_radius": 7.0 
+  },
+  "Mars": { "name": "Mars Guo", "species": "Phuii", "homeworld": "Phu", "pod": "Collor Pondrat Plug-2 Behemoth", 
+    "intro": "Would you check out the size of those engines **Mars Guo** is reigning? *UNBELIEVABLE!*", 
+    "antiskid": 0.6, "turn_response": 288, "acceleration": 2.3, "max_speed": 540, "air_brake_interval": 30, "cool_rate": 2.1, "repair_rate": 0.35, "max_turn_rate": 100, 
+    "deceleration_interval": 85, "boost_thrust": 315, "heat_rate": 7.5, "hover_height": 6.00, "bump_mass": 70, "damage_immunity": 0.50, "isect_radius": 10.0 
+  },
+  "Ebe": { "name": "Ebe Endocott", "species": "Triffian", "homeworld": "Triffis", "pod": "JAK Racing J930 Dash-8, Split X Configured", 
+    "intro": "**Ebe E. Endocott** has come out of nowhere to challenge the best podracers today. This confident Triffian boasts three semi-pro titles on Malastare!", 
+    "antiskid": 0.6, "turn_response": 294, "acceleration": 2.5, "max_speed": 500, "air_brake_interval": 40, "cool_rate": 11, "repair_rate": 0.45, "max_turn_rate": 100, 
+    "deceleration_interval": 70, "boost_thrust": 190, "heat_rate": 15.2, "hover_height": 4.99, "bump_mass": 45, "damage_immunity": 0.70, "isect_radius": 4.8 
+  },
+  "Dud": { "name": "Dud Bolt", "species": "Vulptereen", "homeworld": "Vulpter", "pod": "Vulptereen RS 557",
+    "intro": "The Vulptereen racer **Dud Bolt** is on the track today. Whoah, he is gonna be tough to beat.", 
+    "antiskid": 0.54, "turn_response": 215, "acceleration": 3, "max_speed": 505, "air_brake_interval": 35, "cool_rate": 2.5, "repair_rate": 0.2, "max_turn_rate": 80, 
+    "deceleration_interval": 90, "boost_thrust": 230, "heat_rate": 8.6, "hover_height": 4.99, "bump_mass": 70, "damage_immunity": 0.35, "isect_radius": 5.5
+  },
+  "Gasgano": { "name": "Gasgano", "species": "Xexto", "homeworld": "Troiken", "pod": "Custom Ord Pedrovia",
+    "intro": "Wow! Look at that! It's the galaxy famous **Gasgano** in his custom Ord Pedrovia.",
+    "antiskid": 0.43, "turn_response": 238, "acceleration": 3.3, "max_speed": 510, "air_brake_interval": 43, "cool_rate": 1.7, "repair_rate": 0.4, "max_turn_rate": 82, 
+    "deceleration_interval": 83, "boost_thrust": 310, "heat_rate": 12.5, "hover_height": 4.99, "bump_mass": 63, "damage_immunity": 0.43, "isect_radius": 4.2
+  },
+  "Clegg": { "name": "Clegg Holdfast", "species": "Nosaurian", "homeworld": "New Plympto", "pod": "Keizaar-Volvec KV9T9-B Wasp",
+    "intro": "The famous writer of Podracer Quarterly himself, **Clegg Holdfast** is gonna give the real thing a try today. Hmm hmm, hope he can finish the race!",
+    "antiskid": 0.5, "turn_response": 252, "acceleration": 1.75, "max_speed": 495, "air_brake_interval": 45, "cool_rate": 5, "repair_rate": 0.31, "max_turn_rate": 89, 
+    "deceleration_interval": 80, "boost_thrust": 303, "heat_rate": 11.5, "hover_height": 6.00, "bump_mass": 55, "damage_immunity": 0.43, "isect_radius": 7.0
+  },
+  "Elan": { "name": "Elan Mak", "species": "Fluggrian", "homeworld": "Ploo IV", "pod": "Kurtob KRT 410C",
+    "intro": "**Elan Mak**. Just who is this mysterious podracer? He sure impressed us with his qualifying laps, whoever he is.",
+    "antiskid": 0.3, "turn_response": 224, "acceleration": 3.75, "max_speed": 480, "air_brake_interval": 40, "cool_rate": 2.5, "repair_rate": 0.3, "max_turn_rate": 95, 
+    "deceleration_interval": 70, "boost_thrust": 360, "heat_rate": 10.0, "hover_height": 4.99, "bump_mass": 53, "damage_immunity": 0.50, "isect_radius": 6.0
+  },
+  "Neva": { "name": "Neva Kee", "species": "Xamster", "homeworld": "Xagobah", "pod": "Farwan & Glott FG 8T8-Twin Block-2 Special",
+    "intro": "**Neva Kee** is piloting his new super experimental podracer. This may be the future of podracer racing folks so take a good look: *NO CABLES!*",
+    "antiskid": 0.8, "turn_response": 230, "acceleration": 1, "max_speed": 480, "air_brake_interval": 30, "cool_rate": 3.3, "repair_rate": 0.32, "max_turn_rate": 115, 
+    "deceleration_interval": 70, "boost_thrust": 280, "heat_rate": 11.5, "hover_height": 4.99, "bump_mass": 55, "damage_immunity": 0.60, "isect_radius": 7.0
+  },
+  "Bozzie": { "name": "Bozzie Baranta", "species": "Unknown", "homeworld": "Unknown", "pod": "Shelba 730S Razor",
+    "intro": "I see three-time winner **Bozzie Baranta** is back for another try.",
+    "antiskid": 0.33, "turn_response": 294, "acceleration": 2.1, "max_speed": 485, "air_brake_interval": 42, "cool_rate": 3.5, "repair_rate": 0.3, "max_turn_rate": 90, 
+    "deceleration_interval": 83, "boost_thrust": 275, "heat_rate": 11.8, "hover_height": 4.99, "bump_mass": 60, "damage_immunity": 0.55, "isect_radius": 7.0
+  },
+  "Boles": { "name": "Boles Roor", "species": "Sneevel", "homeworld": "Sneeve", "pod": "Bin Gassi Racing Engines Quadrijet 4-Barrel 904E",
+    "intro": "It's two-time winner **Boles Roor**. This Sneevel's got money to burn and he's put it all into his podracer!",
+    "antiskid": 0.3, "turn_response": 280, "acceleration": 2.85, "max_speed": 590, "air_brake_interval": 35, "cool_rate": 2.7, "repair_rate": 0.18, "max_turn_rate": 83, 
+    "deceleration_interval": 85, "boost_thrust": 390, "heat_rate": 9.5, "hover_height": 4.99, "bump_mass": 62, "damage_immunity": 0.30, "isect_radius": 7.0
+  },
+  "Ody": { "name": "Ody Mandrell", "species": "Er'Kit", "homeworld": "Tatooine", "pod": "Exelbrok XL 5115",
+    "intro": "Ahh he's reckless but a real crowd-pleaser. The Tatooine native **Ody Mandrell** is on the starting grid.",
+    "antiskid": 0.45, "turn_response": 238, "acceleration": 1.8, "max_speed": 475, "air_brake_interval": 30, "cool_rate": 4.4, "repair_rate": 0.4, "max_turn_rate": 90, 
+    "deceleration_interval": 65, "boost_thrust": 240, "heat_rate": 11.0, "hover_height": 5.00, "bump_mass": 57, "damage_immunity": 0.60, "isect_radius": 5.2
+  },
+  "Fud": { "name": "Fud Sang", "species": "Unknown", "homeworld": "Unknown", "pod": "Bokaan Race Engineering BRE Block-6 Tri-Ram",
+    "intro": "**Fud Sang** is down there! Well I thought he was serving four life sentences here at Oovo IV.",
+    "antiskid": 0.35, "turn_response": 245, "acceleration": 2.85, "max_speed": 490, "air_brake_interval": 30, "cool_rate": 6.5, "repair_rate": 0.39, "max_turn_rate": 90, 
+    "deceleration_interval": 75, "boost_thrust": 250, "heat_rate": 12.0, "hover_height": 4.99, "bump_mass": 53, "damage_immunity": 0.55, "isect_radius": 7.0
+  },
+  "Ben": { "name": "Ben Quadinaros", "species": "Toong", "homeworld": "Tund", "pod": "Balta-Trabaat BT310",
+    "intro": "I'm betting on that tall drink of water from the Tund system, **Ben Quadinaros**. He's got four-- COUNT 'EM... *FOUR* ENGINES!",
+    "antiskid": 0.45, "turn_response": 203, "acceleration": 3, "max_speed": 575, "air_brake_interval": 40, "cool_rate": 2, "repair_rate": 0.28, "max_turn_rate": 89, 
+    "deceleration_interval": 95, "boost_thrust": 400, "heat_rate": 8.0, "hover_height": 4.99, "bump_mass": 73, "damage_immunity": 0.45, "isect_radius": 7.0
+  },
+  "Slide": { "name": "Slide Paramita", "species": "Ciasi", "homeworld": "Unknown", "pod": "Pizer-Errol Stinger 627 S",
+    "intro": "It's **Slide Paramita** in his modified Pizer-Errol Stinger. Very sharp!",
+    "antiskid": 0.43, "turn_response": 297, "acceleration": 1.95, "max_speed": 475, "air_brake_interval": 30, "cool_rate": 12, "repair_rate": 0.63, "max_turn_rate": 120, 
+    "deceleration_interval": 80, "boost_thrust": 200, "heat_rate": 16.0, "hover_height": 4.99, "bump_mass": 40, "damage_immunity": 0.80, "isect_radius": 7.0
+  },
+  "Toy": { "name": "Toy Dampner", "species": "Unknown", "homeworld": "Unknown", "pod": "Turca 910 Special",
+    "intro": "**Toy Dampner** has joined the pack in his black and white Turca Special. Hooo! He looks fast!", 
+    "antiskid": 0.5, "turn_response": 270, "acceleration": 1.75, "max_speed": 485, "air_brake_interval": 25, "cool_rate": 10, "repair_rate": 0.5, "max_turn_rate": 86, 
+    "deceleration_interval": 70, "boost_thrust": 240, "heat_rate": 12.5, "hover_height": 4.99, "bump_mass": 40, "damage_immunity": 0.65, "isect_radius": 7.0
+  },
+  "Bullseye": { "name": "'Bullseye' Navior", "species": "Unknown", "homeworld": "Unknown", "pod": "Irateq RQ 550C Dart",
+    "intro": "I see **Bullseye Navior** is just taking his place on the grid. That's a quick podracer he's got there!",
+    "antiskid": 0.7, "turn_response": 322, "acceleration": 1.8, "max_speed": 480, "air_brake_interval": 25, "cool_rate": 11, "repair_rate": 0.55, "max_turn_rate": 120, 
+    "deceleration_interval": 70, "boost_thrust": 300, "heat_rate": 15.0, "hover_height": 4.99, "bump_mass": 45, "damage_immunity": 0.77, "isect_radius": 7.0
+  }
+}
