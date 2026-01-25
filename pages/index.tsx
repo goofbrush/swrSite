@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { fetchSpreadsheetData, download } from "../scripts/data";
 
-import TrackPage, { TrackState } from "../pages/track";
-import PlayerPage, { PlayerState } from "../pages/player";
-import LeaderboardPage, { LeaderboardState } from "../pages/leaderboard";
+import TrackPage, { TrackState } from "../components/track";
+import PlayerPage, { PlayerState } from "../components/player";
+import LeaderboardPage, { LeaderboardState } from "../components/leaderboard";
 
 import { FilterCriteria, DataRow, filterBoard, getPlayerRecords, XStateRadio } from "./stuff";
 import { StatsPage, SimulatorPage } from "./mechanics";

@@ -1,4 +1,4 @@
-import { FilterCriteria, DataRow, tableHeader, XStateRadio, Dropdown, RenderTable, lists, trackList } from "./stuff";
+import { FilterCriteria, DataRow, tableHeader, XStateRadio, Dropdown, RenderTable, lists, trackList } from "../pages/stuff";
 
 export type LeaderboardState = {
   playerRecords: DataRow[] | null;
