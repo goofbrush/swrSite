@@ -27,6 +27,7 @@ export default function TrackPage ({ state } : { state: any }) {
   
   const obs = obsoleteSelect[2 - +(filter.uniquePlayer || 1) - +(filter.fastestPod || 0)];
   const cons = consoleSelect[filter.platformFilter || 0];
+  const skip = filter.skips || "Full Track";
   const lap = filter.laps || "3 lap";
   const ups = (filter.upgrades || "TRUE") == "TRUE"? "Upgrades" : "No Upgrades";
   const trak = filter.track || "BTC";
@@ -107,7 +108,7 @@ export default function TrackPage ({ state } : { state: any }) {
         
         
         <XStateRadio options={["Full Track","Skips","AI/MFG Skips"]} onClickLogic={(x) => { changeFilter({ skips: x }); }} 
-          disableLogic={(v) => disableButton(v,"skip")} value={"Full Track"}/>
+          disableLogic={(v) => disableButton(v,"skip")} value={skip}/>
         
         <XStateRadio options={["3 lap", "Fast lap"]} onClickLogic={ (x) => { changeFilter({ laps: x }); } } 
           disableLogic={(v) => disableButton(v,"lap")} value={lap}/>
