@@ -10,7 +10,7 @@ export type TrackState = {
 
 
 
-export function TrackPage ({ state } : { state: any }) {
+export default function TrackPage ({ state } : { state: any }) {
   
   const {
     board,

@@ -10,7 +10,7 @@ export type PlayerState = {
 
 
 
-export function PlayerPage ({ state } : { state: any }) {
+export default function PlayerPage ({ state } : { state: any }) {
   
   const {
     board,

@@ -6,7 +6,7 @@ export type LeaderboardState = {
 
 
 
-export function LeaderboardPage ({ state } : { state: any }) {
+export default function LeaderboardPage ({ state } : { state: any }) {
   
   const {
     playerRecords,
