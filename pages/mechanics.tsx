@@ -70,7 +70,7 @@ export const StatsPage = () => {
         <thead>
           <tr>
             {headers.map((header) => (
-              <th style={{backgroundImage:`url('./symbols/${header}.png')`, backgroundSize:"cover" ,width:42, maxWidth:42, height:42}} key={header}></th>
+              <th style={{backgroundImage:`url('/swrSite/symbols/${header}.png')`, backgroundSize:"cover" ,width:42, maxWidth:42, height:42}} key={header}></th>
             ))}
           </tr>
         </thead>

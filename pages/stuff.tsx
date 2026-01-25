@@ -448,9 +448,9 @@ export function RenderTable ({table, headers}
             style={
               
               header.label == "Platform"
-              ? { backgroundImage: `url('./plat/${row[header.label]}.png')` }
+              ? { backgroundImage: `url('/swrSite/plat/${row[header.label]}.png')` }
               : header.label == "Pod"
-              ? { backgroundImage: `url('./pod/${row[header.label]}.png')` }
+              ? { backgroundImage: `url('/swrSite/pod/${row[header.label]}.png')` }
               : header.style
             }
             className={header.label == "Player" ? "style-" + row[header.label] : header.label} 
