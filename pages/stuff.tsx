@@ -163,7 +163,7 @@ export function filterBoard(Data: DataRow[] | null, ruleData:any, newFilter: Fil
       }
       
       if(run.Player == item.Player) {
-        if(run.Time_t > item.Time_t) { // time was never faster
+        if(run.Time_t >= item.Time_t) { // time was never faster
           run.ogPosition = run.Position = "-";
           return []; // dont have to do anything
         }
@@ -494,6 +494,7 @@ const CustomScrollbars = React.forwardRef<Scrollbars, CustomScrollbarsProps>(({ 
     {children}
   </Scrollbars>
 ));
+
 
 
 
